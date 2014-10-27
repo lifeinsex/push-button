@@ -13,10 +13,6 @@
     width: 100px;
     height: 100px;
     float: left;
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
     position: relative;
 
     .btn-inner {
@@ -26,6 +22,7 @@
       background-color: yellow;
       position: absolute;
       cursor: pointer;
+      z-index: 500;
     }
   }
 }
